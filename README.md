@@ -1,19 +1,22 @@
-# Ivan Pukhov
+[![WAIX — WhatsApp API, OTP и автоматизация](assets/waix-cover.svg)](https://waix.kz)
 
-Full-stack developer from Kazakhstan. I build backend-heavy web products,
-automation tools and real-time systems with Python and Node.js.
+**Русский** · [English](https://github.com/ivanpukhov/ivanpukhov/blob/main/README.en.md)
 
-I enjoy projects where the interesting work is below the surface: authoritative
-state, access control, network observability, data processing and small tools that
-remove repetitive work.
+### Иван Пухов
 
-## Tools I reach for
+Full-stack разработчик из Казахстана. Разрабатываю **[WAIX](https://waix.kz)** — сервис для подключения WhatsApp к сайтам, CRM и приложениям: сообщения через API, OTP-коды и рассылки со сценариями.
 
-```text
-Backend      Node.js · Express · Python · Flask · WebSocket
-Frontend     React · JavaScript · HTML · SCSS · Vite
-Data         PostgreSQL · SQLite · MongoDB · Sequelize
-Quality      unit/integration tests · GitHub Actions · API documentation
-```
+**[Сайт](https://waix.kz)** · **[Документация API](https://waix.kz/docs)** · **[Интеграции](https://waix.kz/integrations)** · **[MCP-сервер](https://waix.kz/docs/mcp)**
 
-Most of my production work is commercial, so the code stays private.
+### Открытый код WAIX
+
+| Репозиторий | Что внутри | Установка |
+| :--- | :--- | :--- |
+| **[waix-node](https://github.com/ivanpukhov/waix-node)** | Node.js и TypeScript · ESM / CommonJS | [npm](https://www.npmjs.com/package/waix-node) |
+| **[waix-python](https://github.com/ivanpukhov/waix-python)** | Python · без внешних зависимостей | [PyPI](https://pypi.org/project/waix-python/) |
+| **[waix-php](https://github.com/ivanpukhov/waix-php)** | PHP · Composer | [Packagist](https://packagist.org/packages/waix/waix-php) |
+| **[waix-integrations](https://github.com/ivanpukhov/waix-integrations)** | n8n, Make, Zapier, 1С, Bitrix24 и MCP | [Примеры](https://waix.kz/integrations) |
+
+SDK работают с API v1: сообщения, шаблоны, медиа, вебхуки и OTP. Инструкции — на русском и английском.
+
+**Рабочий стек:** Node.js · Python · React · PostgreSQL · Docker · GitHub Actions.
